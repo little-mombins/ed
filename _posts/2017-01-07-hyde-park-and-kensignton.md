@@ -3,6 +3,7 @@ title: Hyde Park and Kensington
 author: mombin1
 date: 2017-01-07
 layout: post
+excerpt_separator: "\n\n\n"
 categories: london, travel, hyde park, kensington, harods
 ---
 
@@ -11,6 +12,7 @@ categories: london, travel, hyde park, kensington, harods
 Our next adventure around West London was Hyde Park/Kensington. We are
 fortunate to live right next to Hyde Park, so we can go on walks through nature
 whenever the desire takes us... 
+
 
 ![01](/assets/2017-01-07_hyde-park-and-kensignton/001.jpg){: .center-image }
 
