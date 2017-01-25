@@ -1,17 +1,17 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               Ed.
-tagline:             'A Jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://elotroalex.github.io'
+title:               The Little Mombins
+tagline:             'Adventures in Mombin Land'
+description:         'Fun times'
+url:                 'http://little-mombins.github.io'
 #baseurl:             '/ed'
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Dr Bernkus
+  url:               ''
+  email:             'littlemombins@gmail.com'
 
 # Permalinks
 
@@ -44,4 +44,8 @@ version:             0.0.6
 # Exclusions from the final site
 exclude: [optional, vendor]
 
+gems: [jekyll-paginate, jekyll-feed]
 
+# Options for pagination
+paginate: 10
+paginate_path: "blog/page:num"
