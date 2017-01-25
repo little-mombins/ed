@@ -6,7 +6,7 @@ title: The Little Mombins
   {% feed_meta %}
 </head>
 <div class="introduction">
-  <h1>Hi.</h1>
+  <h1></h1>
 </div>
 
 <hr>
@@ -21,9 +21,8 @@ title: The Little Mombins
     --!>
   </p>
   <div class="content">
+    {{ post.content }}
     <!--
-    {{ post.conten }}
-    --!>
     {{ post.excerpt }} 
     {% capture content_words %} 
       {{ post.content | number_of_words }} 
@@ -35,6 +34,7 @@ title: The Little Mombins
     <p><a class="btn btn-sm btn-primary" href="{{ post.url }}/#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
     </p>
 {% endif %}
+    --!>
   </div>
 {% endfor %}
 
